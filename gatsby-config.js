@@ -1,7 +1,7 @@
 module.exports = {
   siteMetadata: {
     title: `Faith of a Child`,
-    description: `Kick off your next, great Gatsby project with this default starter. This barebones starter ships with the main Gatsby configuration files you might need.`,
+    description: `Help us share the light of Christ with children worldwide here!`,
     author: `@gatsbyjs`,
   },
   plugins: [
