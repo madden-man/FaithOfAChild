@@ -1,5 +1,3 @@
-@import '../styles/breakpoints.css';
-
 .header-holder {
   margin: 0 auto;
   max-width: 960px;
@@ -16,7 +14,7 @@
   flex-grow: 1;
 }
 
-@media (--bigger-than-mobile) {
+@media only screen and (max-width: 480px) {
   .header-holder {
     display: inline-block;
     width: 100%;
