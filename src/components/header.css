@@ -1,0 +1,28 @@
+@import '../styles/breakpoints.css';
+
+.header-holder {
+  margin: 0 auto;
+  max-width: 960px;
+  padding: 1.45rem 1.0875rem;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.main-menu {
+  align-self: flex-end;
+  display: flex;
+  justify-content: flex-end;
+  flex-grow: 1;
+}
+
+@media (--bigger-than-mobile) {
+  .header-holder {
+    display: inline-block;
+    width: 100%;
+  }
+
+  .main-menu {
+    margin-top: 0.5rem;
+  }
+}
