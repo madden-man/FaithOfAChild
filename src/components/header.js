@@ -37,13 +37,24 @@ const Header = ({ siteTitle }) => (
         </h4>
         <h4 style={{ marginBottom: 0, marginLeft: '1.5rem', alignSelf: 'flex-end' }}>
           <Link
-            to="/get-involved"
+            to="/projects"
             style={{
               color: 'white',
               textDecoration: 'none',
             }}
           >
-            Get Involved
+            Projects
+          </Link>
+        </h4>
+        <h4 style={{ marginBottom: 0, marginLeft: '1.5rem', alignSelf: 'flex-end' }}>
+          <Link
+            to="/donate"
+            style={{
+              color: 'white',
+              textDecoration: 'none',
+            }}
+          >
+            Donate
           </Link>
         </h4>
       </nav>
