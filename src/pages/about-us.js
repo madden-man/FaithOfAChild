@@ -15,12 +15,12 @@ const AboutUsPage = () => (
     }}>
       <img src={saulWithDadDD} style={{
         border: '2px ridge #006F45',
-        height: '23.5rem'
+        height: '23.5rem',
+        marginRight: '2rem',
       }}/>
       <img src={saulWithAndre} style={{
         border: '2px ridge #006F45',
         height: '23.5rem',
-        marginLeft: '2rem',
       }}/>
     </div>
   </Layout>
