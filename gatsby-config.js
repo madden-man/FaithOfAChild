@@ -1,7 +1,7 @@
 module.exports = {
   siteMetadata: {
     title: `Faith of a Child`,
-    description: `Help us share the light of Christ with children worldwide here!`,
+    description: `Help us share the light of Christ with children worldwide!`,
     author: `@gatsbyjs`,
   },
   plugins: [
@@ -26,6 +26,7 @@ module.exports = {
         display: `minimal-ui`,
       },
     },
+    'gatsby-plugin-react-helmet',
     // this (optional) plugin enables Progressive Web App + Offline functionality
     // To learn more, visit: https://gatsby.dev/offline
     // `gatsby-plugin-offline`,
