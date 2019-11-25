@@ -22,7 +22,10 @@ const ProjectsPage = () => (
           <h3>Uganda 2019:</h3>
           <span>In partnership with Sonrise Ministries, we helped to build the orphanage facilities for abandoned children.   We fixed sewer pipes, helped to establish farmland to feed the children, and repaired desks for the on-site school.</span>
         </div>
-        <span className="projects__info--mobile">In partnership with Sonrise Ministries, we helped to build the orphanage facilities for abandoned children.   We fixed sewer pipes, helped to establish farmland to feed the children, and repaired desks for the on-site school.</span>
+        <span className="projects__info--mobile">
+          In partnership with Sonrise Ministries, we helped to build the orphanage facilities for abandoned children.   We fixed sewer pipes, helped to establish farmland to feed the children, and repaired desks for the on-site school.
+          <hr style={{marginTop: '2rem', marginBottom: '0'}}/>
+        </span>
       </div>
 
       <div className="projects__container">
@@ -32,7 +35,10 @@ const ProjectsPage = () => (
           <h3>Guatemala 2019:</h3>
           <span>We drilled a well in rural Guatemala, providing clean water for a school facility but also for thousands of people passing on the nearby road.</span>
         </div>
-        <span className="projects__info--mobile">We drilled a well in rural Guatemala, providing clean water for a school facility but also for thousands of people passing on the nearby road.</span>
+        <span className="projects__info--mobile">
+          We drilled a well in rural Guatemala, providing clean water for a school facility but also for thousands of people passing on the nearby road.
+          <hr style={{marginTop: '2rem', marginBottom: '0'}}/>
+        </span>
       </div>
 
       <div className="projects__container">
@@ -42,8 +48,10 @@ const ProjectsPage = () => (
           <h3>El Salvador 2019:</h3>
           <span>We drilled a well in El Salvador, helping a rural family to avoid certain death from drinking pesticides in their water supply.</span>
         </div>
-        <span className="projects__info--mobile">We drilled a well in El Salvador, helping a rural family to avoid certain death from drinking pesticides in their water supply.</span>
-
+        <span className="projects__info--mobile">
+          We drilled a well in El Salvador, helping a rural family to avoid certain death from drinking pesticides in their water supply.
+          <hr style={{marginTop: '2rem', marginBottom: '0'}}/>
+        </span>
       </div>
     </section>
   </Layout>
