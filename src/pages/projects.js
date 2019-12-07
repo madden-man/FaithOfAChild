@@ -4,11 +4,13 @@ import Layout from "../components/layout"
 import danielImg from '../images/Daniel.jpg';
 import wellImg from '../images/water-spraying.jpg';
 import marlonImg from '../images/Marlon.jpg';
+import Helmet from "../components/helmet"
 
 import '../styles/projects.css';
 
 const ProjectsPage = () => (
   <Layout>
+    <Helmet title="Projects" />
     <h1>Projects</h1>
     <div className="project-announcement">
       <h2>Upcoming trip to Uganda (Summer 2020):</h2>
