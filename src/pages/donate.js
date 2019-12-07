@@ -84,6 +84,10 @@ const DonateForm = () => {
         <p style={{width: '100%'}}>100% of donations go directly to programs for a needy child.   All of our administrative costs are paid by our founders, and all overhead services (like this website) are donated.</p>
 
         <div className="form-row">
+          <label htmlFor="paymentAuthor">
+            Name
+          </label><br />
+          <input name="paymentAuthor" type="text" style={{marginBottom:'1rem', width: '50%'}} /><br />
           <label htmlFor="card-element">
             Credit or debit card
           </label>
@@ -92,7 +96,7 @@ const DonateForm = () => {
           <label htmlFor="paymentAmount">
             Payment Amount
           </label><br />
-          <input name="paymentAmount" type="text" style={{marginBottom:'1rem'}} /><span style={{marginLeft: '4px'}}>$</span>
+          <input name="paymentAmount" type="text" style={{marginBottom:'1rem', width: '50%'}} /><span style={{marginLeft: '4px'}}>$</span>
         </div>
 
         <button>Submit Payment</button>
