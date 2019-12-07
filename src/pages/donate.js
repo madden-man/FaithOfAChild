@@ -27,7 +27,7 @@ const DonateForm = () => {
       },
     };
 
-    const stripe = window.Stripe('pk_test_ejI01FYC0jjFxjqeOtypMAPv00ksGhiaKA');
+    const stripe = window.Stripe('pk_live_IGwgNve60rtWg5LFRobD1la100aYKjXJrj');
 
     // Create an instance of the card Element.
     const card = stripe.elements().create('card', {style});
