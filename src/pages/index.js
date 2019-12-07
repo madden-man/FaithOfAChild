@@ -3,11 +3,11 @@ import React from "react"
 import womanWithChild from '../images/woman-with-child.jpg';
 import proverbs22_6 from '../images/proverbs-22-6.jpg';
 import Layout from "../components/layout"
-import SEO from "../components/seo"
+import Helmet from "../components/helmet"
 
 const IndexPage = () => (
   <Layout alignment="center">
-    <SEO title="Home" />
+    <Helmet title="Home" />
     <h1 style={{display: 'flex', flexWrap: 'wrap', flexDirection: 'row', justifyContent: 'center'}}>
       <span style={{whiteSpace: 'pre'}}>Welcome to </span>
       <span>Faith of a Child!</span>
