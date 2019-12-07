@@ -1,5 +1,4 @@
 import React, { useEffect } from "react"
-import { Location } from '@reach/router'
 import Layout from "../components/layout"
 import Helmet from "../components/helmet"
 

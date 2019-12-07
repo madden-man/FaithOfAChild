@@ -1,4 +1,6 @@
 import React from 'react';
+import Layout from "../components/layout";
+import Helmet from "../components/helmet";
 
 export const SuccessPage = () =>
   <Layout>
