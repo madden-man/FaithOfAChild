@@ -1,4 +1,5 @@
 import React, { useEffect } from "react"
+import { Location } from '@reach/router'
 import Layout from "../components/layout"
 import Helmet from "../components/helmet"
 
@@ -56,24 +57,6 @@ const DonateForm = () => {
       });
     }
   }, []);
-  
-  const success = new URLSearchParams(window && window.location.search).get('success');
-
-  if (success && success === 'true') {
-    return (
-      <Layout>
-        <Helmet title="Donate" />
-        <h1>Your donation has been received. Thank you so much for your generous support.</h1>
-      </Layout>
-    );
-  } else if (success && success === 'false') {
-    return (
-      <Layout>
-        <Helmet title="Donate" />
-        <h1>Your donation has not been received. Something went wrong. Sorry about that!</h1>
-      </Layout>
-    )
-  }
 
   return (
     <Layout>
