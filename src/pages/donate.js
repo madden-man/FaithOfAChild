@@ -57,7 +57,7 @@ const DonateForm = () => {
     }
   }, []);
   
-  const success = new URLSearchParams(window.location.search).get('success');
+  const success = new URLSearchParams(window && window.location.search).get('success');
 
   if (success && success === 'true') {
     return (
