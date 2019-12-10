@@ -62,7 +62,7 @@ const DonateForm = () => {
       <Helmet title="Donate" />
       <h1>Donations</h1>
 
-      <form action="http://192.168.21.77:8080" method="post" id="payment-form">
+      <form action="http://18.218.201.87" method="post" id="payment-form">
         <p style={{width: '100%'}}>100% of donations go directly to programs for a needy child.   All of our administrative costs are paid by our founders, and all overhead services (like this website) are donated.</p>
 
         <div className="form-row">
