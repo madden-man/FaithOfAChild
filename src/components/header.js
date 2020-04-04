@@ -2,12 +2,14 @@ import { Link } from "gatsby"
 import PropTypes from "prop-types"
 import React from "react"
 
+import faithLogo from '../assets/faith-logo-realest.png';
+
 import './header.css';
 
 const Header = ({ siteTitle }) => (
   <header
     style={{
-      background: `#006F45`,
+      background: `#6A961F`,
       marginBottom: `1.45rem`,
     }}
   >
@@ -20,7 +22,7 @@ const Header = ({ siteTitle }) => (
             textDecoration: `none`,
           }}
         >
-          {siteTitle}
+          <img src={faithLogo} className="header__logo" alt="faith of a child foundation" />
         </Link>
       </h1>
       <nav className="main-menu">
@@ -28,7 +30,6 @@ const Header = ({ siteTitle }) => (
           <Link
             to="/about-us"
             style={{
-              color: 'white',
               textDecoration: 'none',
             }}
           >
@@ -39,7 +40,6 @@ const Header = ({ siteTitle }) => (
           <Link
             to="/projects"
             style={{
-              color: 'white',
               textDecoration: 'none',
             }}
           >
@@ -50,7 +50,6 @@ const Header = ({ siteTitle }) => (
           <Link
             to="/donate"
             style={{
-              color: 'white',
               textDecoration: 'none',
             }}
           >

@@ -1,17 +1,26 @@
 .header-holder {
   margin: 0 auto;
   max-width: 960px;
-  padding: 1.45rem 1.0875rem;
+  padding: 0.5rem;
   display: flex;
   flex-direction: row;
   align-items: center;
 }
 
 .main-menu {
-  align-self: flex-end;
   display: flex;
   justify-content: flex-end;
   flex-grow: 1;
+}
+
+.main-menu a {
+  color: #FFE36B;
+}
+
+.header__logo {
+  width: 9rem;
+  height: 3rem;
+  margin-bottom: 0;
 }
 
 @media only screen and (max-width: 480px) {
